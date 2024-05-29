@@ -3,8 +3,10 @@ defmodule Hello do
 
   def world do
 
-  IO.puts("Hello world Elixir")
+  IO.puts("Hello Elixir")
 
   end
 
 end
+
+Hello.world()
