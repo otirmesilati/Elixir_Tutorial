@@ -1,10 +1,6 @@
 defmodule MyMix.Recursion.PrintDigits do
 
-  def up_to(0) do
-
-    0
-
-  end
+  def up_to(0), do: 0
 
   def up_to(nums) do
 
