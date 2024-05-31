@@ -1,4 +1,4 @@
-defmodule my_mix.recursion.print_digits do
+defmodule MyMix.recursion.PrintDigits do
 
   def up_to(0) do
 
