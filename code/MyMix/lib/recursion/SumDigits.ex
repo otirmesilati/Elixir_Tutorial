@@ -8,4 +8,13 @@ defmodule MyMix.Recursion.SumDigits do
 
   end
 
+  def rec_sum_to(num, acc \\0)
+  def rec_sum_to(0, acc), do: acc
+
+  def rec_sum_to(nums, acc) do
+
+    rec_sum_to(nums - 1, acc + nums)
+
+  end
+
 end
